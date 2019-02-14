@@ -1,0 +1,16 @@
+[package]
+authors = ["Kobi Gurkan <kobigurk@gmail.com>"]
+name = "omer_test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies.sapling-crypto]
+git = "https://github.com/zcash/librustzcash.git"
+rev = "06da3b9ac8f278e5d4ae13088cf0a4c03d2c13f5"
+
+[dependencies.pairing]
+git = "https://github.com/zcash/librustzcash.git"
+rev = "06da3b9ac8f278e5d4ae13088cf0a4c03d2c13f5"
+
+[features]
+default = []
